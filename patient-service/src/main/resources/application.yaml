@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test
+    username: sa
+    password: sa
+  jpa:
+    hibernate:
+      format-sql: true
+
+  server:
+    port: 8090
+
+  logging:
+    file:
+      name: logs/dev.log
+    level:
+      org:
+        hibernate:
+          SQL: debug
+      com:
+        ust:
+          jpa_demo: debug
+      web: warn
+    pattern:
+      file: "%d{HH:mm:ss.SSS} {%t} %Slevel %logger{36} - %msg%n"
+      console: "%d{yyyy-MM-dd }"
