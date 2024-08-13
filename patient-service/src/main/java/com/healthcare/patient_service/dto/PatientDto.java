@@ -25,14 +25,14 @@ public record PatientDto(
         String address,
 
         @NotBlank(message = "Required")
-        @Pattern(regexp = "//d{10}",message = "phone should be 10 digits in length")
+        @Pattern(regexp = "\\d{10}",message = "phone should be 10 digits in length")
         String phone,
 
         @NotBlank(message = "Required")
         @Past(message = "DOB should be in past")
         LocalDate dob,
 
-        List<PreExistingIllness> preExistingIllnesses
+        List<@NotEmpty String> preExistingIllnesses
 
         ){
 }
