@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30710e24-9bac-4c97-b41a-a99492951439" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/healthcare/appointment_service/domain/Appoinment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/healthcare/appointment_service/feignclients/DoctorServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/healthcare/appointment_service/feignclients/PatientServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/healthcare/appointment_service/serivce/AppoinmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appointment-service/src/main/java/com/healthcare/appointment_service/serivce/AppoinmentServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appointment-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/controller/DoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/domain/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/domain/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/dto/DoctorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/dto/DoctorDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/repository/DoctorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/repository/DoctorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/service/DoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/service/DoctorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/service/DoctorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/java/com/healthcare/doctor_service/service/DoctorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doctor-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/doctor-service/src/main/resources/application.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2kaeVMsiPmPHFKDOVH8RmQbwHpV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/285536/health/healthcare_microservice_casestudy"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30710e24-9bac-4c97-b41a-a99492951439" name="Changes" comment="" />
+      <created>1723526137694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723526137694</updated>
+    </task>
+    <servers />
+  </component>
+</project>
