@@ -1,16 +1,24 @@
 package com.healthcare.appointment_service.serivce;
 
-import com.healthcare.appointment_service.domain.Appoinment;
+import com.healthcare.appointment_service.domain.Appointment;
+import com.healthcare.appointment_service.dto.DoctorDto;
+import com.healthcare.appointment_service.dto.PatientDto;
 
 import java.util.List;
 
 public interface AppoinmentService {
 
-    void createAppoinment(Appoinment appoinment);
+    Appointment createAppointment(Appointment appointment);
 
-    public Appoinment getAppointmentById(int id);
+    public Appointment getAppointmentById(String id);
 
-    List<Appoinment> findAllByPatientId(String patientId);
+    List<Appointment> findAllByPatientId(String patientId);
 
-    List<Appoinment> findAllByDoctorId(String doctorId);
+    List<Appointment> findAllByDoctorId(String doctorId);
+
+    List<Appointment> findAllByPatientIdAndDoctorId(String patientId, String doctorId);
+
+    PatientDto getPatientById(String patientId);
+
+    DoctorDto getDoctorById(String doctorId);
 }
